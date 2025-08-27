@@ -14,9 +14,9 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li class="cart"><a href="#"><img src="images/cart logo.png"></a></li>
                 </ul>
             </div>
@@ -34,7 +34,7 @@
         <div class="imagehero"><img src="images/bannerhero.png"></div>
     </div>
 
-    <div class="boxaboutus">
+    <div class="boxaboutus" id="about">
         <div class="halal2"><img src="images/halal.png"></div>
         <div class="imageaboutus"> <img src="images/aboutus.png"></div>
         <div class="textaboutus">
@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <div class="boxproduct">
+    <div class="boxproduct" id="product">
         <div class="container-product">
             <p>What We Offer</p>
             <h3>FOOD PACKAGES</h3>
@@ -104,8 +104,8 @@
         </div>
     </div>
 
-    <div class="box-pemesanan">
-        <h2>Form Pemesanan Produk UKM</h2>
+    <div class="box-pemesanan" id="contact">
+        <h2>Form Pemesanan Produk UMKM</h2>
         <div class="form-container">
             <div class="image-form">
                 <image src="images/bannerhero.png"></image>
@@ -126,8 +126,7 @@
                     <label for="pesan">Pesan / Keterangan</label>
                     <textarea id="pesan" name="pesan" placeholder="Tulis Pesan atau Detail Pemesanan"></textarea>
 
-                    <button type="submit">Kirim Pesan</button>
-
+                    <button><a class="button-kirim" href="https://api.whatsapp.com/send/?phone=6282123729993&text=Halo%20saya%20tertarik%20dengan%20produk%20ini" target="_blank">Kirim Pesan</a></button>
                 </form>
             </div>
         </div>
