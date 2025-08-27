@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100;
+  background-color: #538454;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.boxlogo {
+  width: 380px;
+  height: 100px;
+  background-color: #fff;
+  float: left;
+}
+
+.logo {
+  color: #dba84a;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.menu {
+  width: 1060px;
+  height: 100px;
+  background-color: #dba84a;
+  padding-left: 80px;
+  float: right;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 40px;
+  padding-left: 120px;
+  gap: 60px;
+  color: #ffff;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+}
+
+.menu ul li a img {
+  padding-left: 180px;
+}
+
+.menu ul li a:hover {
+  text-decoration: none;
+  color: #538454;
+  font-size: 20px;
+}
+
+/* ---START HERO BANNER--- */
+.boxhero {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  background-color: #538454;
+}
+
+.imagehero {
+  width: 530px;
+  height: 600px;
+  display: flex;
+  padding-top: 100px;
+  padding-right: 0px;
+  float: right;
+}
+
+.texthero {
+  width: 450px;
+  float: left;
+  margin-top: 120px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.welcomehero {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: #e3dbdb;
+  padding-bottom: 28px;
+  line-height: 30px;
+}
+
+.titlehero {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+}
+
+.deschero {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: #e3dbdb;
+  padding-top: 28px;
+  line-height: 30px;
+}
+
+.button {
+  width: 210px;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffff;
+  padding-top: 13px;
+  background: linear-gradient(#fec83d, #7c5d0e);
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.button:hover {
+  background: linear-gradient(#1c8541, #fff36d);
+}
+
+.boxbutton {
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 72px;
+}
+
+.halal1 {
+  padding-top: 12px;
+  padding-right: 120px;
+  margin: 0 auto;
+  float: right;
+}
+/* ---END HERO BANNER--- */
+
+/* ---START ABOUT US--- */
+.boxaboutus {
+  margin: 0 auto;
+  text-align: center;
+  width: 1180px;
+  height: 530px;
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+.halal2 {
+  float: left;
+  padding-left: 40px;
+  margin: 0px;
+}
+
+.imageaboutus {
+  width: 452px;
+  height: 472px;
+  display: flex;
+  padding-top: 60px;
+  padding-right: 0px;
+  padding-left: 0px;
+  float: left;
+}
+
+.textaboutus {
+  width: 550px;
+  float: right;
+  margin-top: 0px;
+  margin-left: 12px;
+  text-align: left;
+}
+
+.heading {
+  color: #1b1919;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.tittleabout {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descabout {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  padding-top: 4px;
+  line-height: 30px;
+  color: rgb(88, 87, 87);
+}
+
+.descabout2 {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  padding-top: 4px;
+  padding-left: 40px;
+  line-height: 30px;
+  color: rgb(88, 87, 87);
+}
+
+.boxbutton2 {
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 32px;
+}
+/* ---END ABOUT US--- */
+
+/* ---START PRODUCT--- */
+.boxproduct {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #538454;
+  margin-top: 12px;
+  margin-bottom: 80px;
+}
+
+.container-product {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.container-product p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container-product h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #e3dbdb;
+}
+
+.productgrid {
+  display: flex;
+  flex: wrap;
+}
+
+.productcard {
+  width: 230px;
+  padding: 40px;
+  margin-left: 20px;
+}
+
+.btn-produk {
+  width: 210px;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffff;
+  padding-top: 13px;
+  background: linear-gradient(#fec83d, #7c5d0e);
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.btn-produk:hover {
+  background: linear-gradient(#1c8541, #fff36d);
+}
+.boxbutton3 {
+  margin-top: 12px;
+}
+
+/* --START TESTIMONI--- */
+.boxtestimoni {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: -60px;
+  margin-bottom: 180px;
+}
+
+.container-testi {
+  max-width: 1180px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.container-testi p {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container-testi h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.testi-grid {
+  display: flex;
+  flex: wrap;
+  width: 1020px;
+  margin-top: 40px;
+  margin-left: 120px;
+  padding-top: 40px;
+  background-color: #e7f2e8;
+  border-radius: 15px;
+}
+
+.img-testi {
+  padding-left: 80px;
+}
+
+.text-testi {
+  width: 500px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 80px;
+  text-align: left;
+}
+
+.boxbutton4 {
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 40px;
+}
+/* ---END TESTIMONI--- */
+
+/* START FORM PEMESANAN */
+.box-pemesanan {
+  background-color: #538454;
+  height: 700px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: -80px;
+}
+
+.form-container {
+  display: flex;
+}
+
+.image-form {
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+  color: #e3dbdb;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+.formpemesanan {
+  background-color: #fff36d;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #878787;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 95%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid rgb(222, 222, 16);
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+  min-height: 150px;
+  text-align: left;
+}
+
+button {
+  background-color: #1c8541;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #0377b1;
+}
+/* START END PEMESANAN */
+
+/* ---START FOOTER */
+.boxfooter {
+  background-color: #e4e4e4;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0 20px;
+  margin-top: 100px;
+}
+
+.container-footer {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footerlogo {
+  font-size: 36px;
+  color: #dba84a;
+}
+
+.sosmed {
+  padding-left: 40px;
+}
+
+.quicklinks ul {
+  font-weight: bold;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.quicklinks li {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.quicklinks a {
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.sosmed img {
+  width: 40px;
+  padding: 5px;
+  float: left;
+}
