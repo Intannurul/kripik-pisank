@@ -28,7 +28,7 @@
             <p class="welcomehero">Welcome to HALALFOOD</p>
             <h1 class="titlehero">DELIVERY SERVICE</h1>
             <p class="deschero">Plate offers quick delivery of <br> organic, healthy food & halal food</p>
-            <div class="boxbutton"><a href="#" class="button"> Order Now </a></div>
+            <div class="boxbutton"><a href="#formPemesanan" class="button"> Order Now </a></div>
         </div>
         <div class="halal1"><img src="images/halal.png"></div>
         <div class="imagehero"><img src="images/bannerhero.png"></div>
@@ -47,7 +47,7 @@
                 <li>The freshest ingredients for every dish
                     Get great discounts when ordering for 2+ people</li>
             </ul>
-            <div class="boxbutton2"><a href="#" class="button"> Order Now </a></div>
+            <div class="boxbutton2"><a href="#formPemesanan" class="button"> Order Now </a></div>
         </div>
     </div>
 
@@ -57,30 +57,30 @@
             <h3>FOOD PACKAGES</h3>
             <div class="productgrid">
 
-                <div class="productcard">
+                <div class="productcard" id="ori">
                     <img src="images/product.png">
-                    <p>Keripik Pisank</p>
+                    <p>Keripik Pisank Original</p>
                     <p><b>Rp 35.000</b></p>
-                    <a href="#" class="btn-produk">Order Now</a>
+                    <a href="#formPemesanan" class="btn-produk">Order Now</a>
                 </div>
-                <div class="productcard">
+                <div class="productcard" id="balado">
                     <img src="images/product.png">
-                    <p>Keripik Pisank</p>
+                    <p>Keripik Pisank Balado</p>
                     <p><b>Rp 35.000</b></p>
-                    <div class="boxbutton3"><a href="#" class="btn-produk">Order Now</a></div>
+                    <div class="boxbutton3"><a href="#formPemesanan" class="btn-produk">Order Now</a></div>
                 </div>
-                <div class="productcard">
+                <div class="productcard" id="keju">
                     <img src="images/product.png">
-                    <p>Keripik Pisank</p>
+                    <p>Keripik Pisank Keju</p>
                     <p><b>Rp 35.000</b></p>
-                    <div class="boxbutton3"><a href="#" class="btn-produk">Order Now</a></div>
+                    <div class="boxbutton3"><a href="#formPemesanan" class="btn-produk">Order Now</a></div>
 
                 </div>
-                <div class="productcard">
+                <div class="productcard" id="matcha">
                     <img src="images/product.png">
-                    <p>Keripik Pisank</p>
+                    <p>Keripik Pisank Matcha</p>
                     <p><b>Rp 35.000</b></p>
-                    <div class="boxbutton3"><a href="#" class="btn-produk">Order Now</a></div>
+                    <div class="boxbutton3"><a href="#formPemesanan" class="btn-produk">Order Now</a></div>
                 </div>
 
             </div>
@@ -88,7 +88,7 @@
     </div>
 
     <div class="boxtestimoni">
-        <div class="container-testi">
+        <div class="container-testi" id="why">
             <p>What Our Customer say</p>
             <h3>Testimonials</h3>
             <div class="testi-grid">
@@ -126,7 +126,8 @@
                     <label for="pesan">Pesan / Keterangan</label>
                     <textarea id="pesan" name="pesan" placeholder="Tulis Pesan atau Detail Pemesanan"></textarea>
 
-                    <button><a class="button-kirim" href="https://api.whatsapp.com/send/?phone=6282123729993&text=Halo%20saya%20tertarik%20dengan%20produk%20ini" target="_blank">Kirim Pesan</a></button>
+                    <!-- <button><a class="button-kirim" id="KirimPesanBtn"href="https://api.whatsapp.com/send/?phone=6282123729993" target="_blank">Kirim Pesan</a>tton> </bu-->
+                     <button id="kirimPesanBtn">Kirim Pesan via WhatsApp</button>
                 </form>
             </div>
         </div>
@@ -139,28 +140,29 @@
               <div class="logososmed">
                   <div class="footerlogo"> Keripik <b>Pisank</b></div>
                   <div class="sosmed">
-                      <a href="#"><img src="images/ig.png"></a>
-                      <a href="#"><img src="images/fb.png"></a>
-                      <a href="#"><img src="images/tiktok.png"></a>
+                      <a href="https://www.instagram.com/"><img src="images/ig.png"></a>
+                      <a href="https://www.facebook.com/"><img src="images/fb.png"></a>
+                      <a href="https://www.tiktok.com/"><img src="images/tiktok.png"></a>
                     </div>
             </div>  
                     <div class="quicklinks">
                         <ul> Quick Links
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Why Choose Us</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#why">Why Choose Us</a></li>
                     </ul>
                 </div>
                 <div class="quicklinks">
                     <ul> Food Packages
-                        <li><a href="#">Keripik Pisank Original</a></li>
-                        <li><a href="#">Keripik Pisank Stroberi</a></li>
-                        <li><a href="#">Keripik Pisank Coklat</a></li>
+                        <li><a href="#ori">Keripik Pisank Original</a></li>
+                        <li><a href="#balado">Keripik Pisank Balado</a></li>
+                        <li><a href="#keju">Keripik Pisank Keju</a></li>
+                        <li><a href="#matcha">Keripik Pisank Matcha</a></li>
                     </ul>
                 </div>
                 <div class="quicklinks">
                     <ul> Contact
-                        <li><a href="#">Phone 1-800-123-1234</a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=6282123729993">Phone 0821-2372-9993</a></li>
                         <li><a href="#">Email : Info@keripikpisank.com</a></li>
                     </ul>
                 </div>
